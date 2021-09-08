@@ -59,8 +59,8 @@ p{
     border-bottom: 4px solid var(--first-color);
 }
 .navbar{
-    padding: 2.5rem 6rem !important;
-    height: 0 !important;
+    padding: 2rem 5rem !important;
+    height: 0px !important;
     box-shadow: 0 1px 4px rgba(146, 161, 176, 15);
     position: fixed;
 } 
@@ -93,10 +93,11 @@ p{
 
 /* Home Area */
 header{
-    margin: 90px 0 160px 0;
+    margin: 100px 0 160px 0;
 }
 header .container img{
-    width: 80%;
+    width: 100%;
+    margin-top: 20px;
 }
 .header-area h1{
     font-size: 70px;
