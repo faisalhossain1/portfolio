@@ -124,13 +124,21 @@ header .container img{
 
 @media only screen and (max-width: 600px) {
     .header-area h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .header-area{
-        padding: 60px 0 0 50px;
+        padding: 5px 0 0 5px;
     }
     .header-area i{
         display: none;
+    }
+    .home-img img{
+        width: 80% !important;
+    }
+    .home-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
